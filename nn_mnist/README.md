@@ -1,0 +1,1 @@
+# Neural network with solution for MNIST dataset

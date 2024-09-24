@@ -1,0 +1,17 @@
+---------------------
+Actual tasks by Karel:
+---------------------
+Week 1 (Sept 24-29): MNIST, Feedforward, Backpropagation, and Gradient Descent
+x Learn the basics: neurons, layers, weights, and biases.
+- Implement a neural network using MNIST dataset.
+- Implement a feedforward neural network using Boston Housing Dataset.
+- Study backpropagation and implement it in the network.
+- Learn gradient descent and experiment with different learning rates.
+- Track model performance: accuracy and loss over epochs.
+- Study how Genetic Algorithm works, what are the alternatives. (GP, ES)
+- Study Advantages and Disadvantages of GAs.
+x Push code to GitHub, including comments and a README.
+- Prepare to explain the network, backpropagation, and gradient descent for the weekly meeting
+-------------
+History:
+-------------
