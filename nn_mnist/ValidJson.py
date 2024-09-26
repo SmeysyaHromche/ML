@@ -1,8 +1,4 @@
-# Neural network with solution for MNIST dataset
-
-### Configuration
-```json
-{
+VALID_JSON = {
     "type":"object",
     "properties":
     {
@@ -78,4 +74,3 @@
     },
     "required":["learn_flag","nn_config","image"]
 }
-```

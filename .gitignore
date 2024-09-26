@@ -1,16 +1,19 @@
 
 # nn_mnist
 ## cache
-nn_mnist/src/__pycache__/*
+nn_mnist/src/__pycache__/
+nn_mnist/__pycache__/
 ## data
 nn_mnist/data/*
 !nn_mnist/data/*/
 !nn_mnist/data/.gitkeep
 ## data/test
 nn_mnist/data/test/*
-!nn_mnist/data/test/*/
 !nn_mnist/data/test/.gitkeep
 ## data/train
 nn_mnist/data/train/*
-!nn_mnist/data/train/*/
 !nn_mnist/data/train/.gitkeep
+
+
+# other
+ref.py
