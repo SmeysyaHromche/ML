@@ -6,9 +6,30 @@
     "type":"object",
     "properties":
     {
-        "learn_flag":
+        "data":
         {
-            "type":"boolean"
+            "type":"object",
+            "property":
+            {
+                "path":
+                {
+                    "type":"string"
+                },
+                "src":
+                {
+                    "type":"array",
+                    "minItems":1,
+                    "items":
+                    {
+                        "type":"string",
+                    }
+                },
+                "trg":
+                {
+                    "type":"string"
+                }
+            },
+            "required":["path", "src", "trg"]
         },
         "nn_config":
         {
@@ -19,11 +40,6 @@
                 {
                     "type":"integer",
                     "minimum":10
-                },
-                "batch_size":
-                {
-                  "type":"integer",
-                  "minimum":10
                 },
                 "act_f":
                 {
@@ -36,46 +52,20 @@
                     "minimum": 0.0,
                     "maximum":1.0
                 },
-                "hidden_arr":
+                "hidden_layer":
                 {
                     "type":"array",
+                    "minItems":2,
+                    "maxItems":2,
                     "items":
                     {
-                        "type":"array",
-                        "minItems":2,
-                        "maxItems":2,
-                        "items":
-                        {
-                            "type":"integer"
-                        }
+                        "type":"integer"
                     }
                 }
             },
-            "required":["epochs", "batch_size", "act_f", "learning_rate", "hidden_arr"]
-        },
-        "image":
-        {
-            "type":"object",
-            "properties":
-            {
-                "w":
-                {
-                    "type":"integer",
-                    "minimum":1
-                },
-                "h":
-                {
-                    "type":"integer",
-                    "minimum":1
-                },
-                "path":
-                {
-                    "type":"string"
-                }
-            },
-            "required":["w", "h", "path"]
+            "required":["epochs", "act_f", "learning_rate", "hidden_layer"]
         }
     },
-    "required":["learn_flag","nn_config","image"]
+    "required":["data","nn_config"]
 }
 ```

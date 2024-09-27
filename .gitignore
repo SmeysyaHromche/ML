@@ -17,3 +17,4 @@ nn_mnist/data/train/*
 
 # other
 ref.py
+ml_utils/__pycache__
