@@ -1,7 +1,7 @@
 # Neural network with solution for Boston dataset
 
 ```json
-VALID_JSON = {
+{
     "type":"object",
     "properties":
     {
