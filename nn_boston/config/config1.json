@@ -1,0 +1,17 @@
+{
+    "data":{
+        "path":"data/BostonHousing.csv",
+        "src":["lstat"],
+        "trg":"medv",
+        "test_size":20
+    },
+    "nn_config":
+    {
+        "batch_size":34,
+        "epochs":10,
+        "act_f":"relu",
+        "learning_rate":0.001,
+        "hidden_size":128,
+        "hidden_cnt":1
+    }
+}
