@@ -1,10 +1,10 @@
 **Convolution neural network**
- -- CNN is *feedforward* neural network wich use *filters(or kernel)* optimization for data learning.
- -- Deep learning concept for *computer vision* and *image processing*
- -- *Filter* is small matrix of weight.
- -- *Convolution* is process when filter is slide on image by pixel. 
- -- *Shift invariant*/*space invariant* - if object on image shifted, after reprocessing and *sign map* will be shifted
- -- CNNs use relatively *little pre-processing compared* to other image classification algorithms. This means that the network learns to optimize the filters (or kernels) *through automated learning*, whereas in traditional algorithms these filters are hand-engineered
+CNN is *feedforward* neural network wich use *filters(or kernel)* optimization for data learning.
+Deep learning concept for *computer vision* and *image processing*
+*Filter* is small matrix of weight.
+*Convolution* is process when filter is slide on image by pixel. 
+*Shift invariant*/*space invariant* - if object on image shifted, after reprocessing and *sign map* will be shifted
+CNNs use relatively *little pre-processing compared* to other image classification algorithms. This means that the network learns to optimize the filters (or kernels) *through automated learning*, whereas in traditional algorithms these filters are hand-engineered
 
 **Сonvolution layer**
 *Input* convolution layer processing (clear image):
