@@ -14,6 +14,21 @@ nn_mnist/data/test/*
 nn_mnist/data/train/*
 !nn_mnist/data/train/.gitkeep
 
+# cnn
+## cache
+cnn/src/__pycache__/
+cnn/__pycache__/
+## data
+cnn/data/*
+!cnn/data/*/
+!cnn/data/.gitkeep
+## data/test
+cnn/data/test/*
+!cnn/data/test/.gitkeep
+## data/train
+cnn/data/train/*
+!cnn/data/train/.gitkeep
+
 
 # other
 ref.py

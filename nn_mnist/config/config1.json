@@ -4,7 +4,7 @@
     {
         "epochs":10,
         "batch_size":64,
-        "act_f":"relu",
+        "act_f":"silu",
         "learning_rate":0.001,
         "hidden_arr":[[784, 128], [128, 128], [128, 10]]
     },
