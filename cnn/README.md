@@ -33,3 +33,6 @@ Is reverse of convolution neural nerwork princip
 [x] -> |xx|
        |xx|
 ```
+
+QUESTION FOR KARL:
+1) alwayse softmax/logsoftmax (difference) in out;
