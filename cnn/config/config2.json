@@ -1,6 +1,9 @@
 {
     "nn_config":
     {
+        "chanels":1,
+        "class_cnt":10,
+        "test_run":false,
         "act_f":"relu",
         "architecture":"lenet",
         "batch_size":34,
@@ -11,6 +14,6 @@
     {
         "x_norm":0.1307,
         "y_norm":0.3081,
-        "dataset":"mnist"
+        "dataset":"MNIST"
     }
 }

@@ -28,6 +28,16 @@ cnn/data/test/*
 ## data/train
 cnn/data/train/*
 !cnn/data/train/.gitkeep
+## data
+cnn/data1/*
+!cnn/data1/*/
+!cnn/data1/.gitkeep
+## data/test
+cnn/data1/test/*
+!cnn/data1/test/.gitkeep
+## data/train
+cnn/data1/train/*
+!cnn/data1/train/.gitkeep
 
 
 # other

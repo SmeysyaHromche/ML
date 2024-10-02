@@ -33,6 +33,9 @@ Is reverse of convolution neural nerwork princip
 [x] -> |xx|
        |xx|
 ```
+# LeNet vs AlexNet
 
-QUESTION FOR KARL:
+![Reference](img\alexnet.png)
+
+# QUESTION FOR KARL:
 1) alwayse softmax/logsoftmax (difference) in out;

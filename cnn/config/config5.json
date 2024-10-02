@@ -1,19 +1,19 @@
 {
     "nn_config":
     {
-        "chanels":1,
+        "chanels":3,
         "class_cnt":10,
         "test_run":false,
-        "act_f":"sig",
-        "architecture":"lenet",
+        "act_f":"relu",
+        "architecture":"alexnet",
         "batch_size":34,
         "epochs":10,
         "lr":0.001
     },
     "data":
     {
-        "x_norm":0.1307,
-        "y_norm":0.3081,
-        "dataset":"MNIST"
+        "x_norm":0.5,
+        "y_norm":0.5,
+        "dataset":"CIFAR10"
     }
 }
