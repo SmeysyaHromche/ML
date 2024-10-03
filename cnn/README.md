@@ -6,6 +6,12 @@
 * *Shift invariant*/*space invariant* - if object on image shifted, after reprocessing and *sign map* will be shifted
 * CNNs use relatively *little pre-processing compared* to other image classification algorithms. This means that the network learns to optimize the filters (or kernels) *through automated learning*, whereas in traditional algorithms these filters are hand-engineered
 
+**Image**
+To exploit the two-dimensional structure of image data to create inductive biases, we can use four interrelated concepts: *hierarchy, locality, equivariance, and invariance*
+1 point : destruct image
+2 point : find edge on local part of image
+3 point in loop : climb the hierarchy for build and find more complex structures by past detected edges
+
 **Сonvolution layer**
 *Input* convolution layer processing (clear image):
 ```
@@ -17,7 +23,7 @@
 ```
 
 **Convolution layer** 
-*Local/global pooling layer* is reduce the dimensions of data by combining the outputs of neuron clusters at one layer into a single neuron in the next layer.
+*Local/global pooling layer* is reduce the dimensions of data by combining the outputs of neuron clusters at one layer into a single neuron in the next layer. Provides us with invariative, nn *dont fixed on location, but on existing features*.
 *Max pooling* uses the maximum value of each local cluster of neurons in the feature map, while *average pooling* takes the average value
 Generally use *ReLu* activation function
 
@@ -36,6 +42,3 @@ Is reverse of convolution neural nerwork princip
 # LeNet vs AlexNet
 
 ![Reference](img\alexnet.png)
-
-# QUESTION FOR KARL:
-1) alwayse softmax/logsoftmax (difference) in out;
