@@ -4,7 +4,7 @@ Actual tasks by Karel:
 Week 2 (Oct 1-7):
 - Goal: Learn about more advanced networks (e.g., CNNs and RNNs).
 - Tasks:
-- Implement CNN for image classification.
+x Implement CNN for image classification.
 - Read and implement a simple RNN/LSTM.
 - Try and implement Self-Supervised learning
 
