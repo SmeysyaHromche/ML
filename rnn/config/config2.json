@@ -1,0 +1,18 @@
+{
+    "data":
+    {
+        "wave":"sin",
+        "time_start":0,
+        "time_step":100,
+        "time_stop":1000
+    },
+    "nn_config":
+    {
+        "lr":0.001,
+        "act_f":"relu",
+        "hidden_size":128,
+        "num_layers":2,
+        "epochs":200,
+        "seq_len":50
+    }
+}

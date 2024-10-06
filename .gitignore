@@ -41,6 +41,7 @@ cnn/data1/train/*
 
 
 # other
+train.ipynb
 ref.py
 ref2.py
 ml_utils/__pycache__
