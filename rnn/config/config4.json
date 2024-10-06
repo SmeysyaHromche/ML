@@ -10,7 +10,7 @@
     {
         "lr":0.001,
         "act_f":"tanh",
-        "hidden_size":10,
+        "hidden_size":1,
         "num_layers":2,
         "epochs":200,
         "seq_len":50
