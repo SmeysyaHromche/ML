@@ -8,7 +8,7 @@ Using: in audo/speech processing/recognizing, time data processing (economics) a
 
 ### Definition
 ![DefinitionOfRNN](img/RNN1.svg)
-![LegendOfDefinitionOfRNN](img/RNN2.svg)
+![LegendOfDefinitionOfRNN](img/RNN2.png)
 
 ### Input x Output relation
 |Type relation|Application|
@@ -34,8 +34,8 @@ LSTM builded from cells and three components: input gate, output gate and forget
 
 ### LSTM definition
 
-![DefinitionOfLSTM](img\LSTMDefinition.svg)
-![LegendOfDefinitionOfRNN](img\LSTMLegendOfDefinition.png)
+![DefinitionOfLSTM](img/LSTMDefinition.svg)
+![LegendOfDefinitionOfRNN](img/LSTMLegendOfDefinition.png)
 
 # My questions:
 Normalization of data
