@@ -6,7 +6,7 @@ VALID_JSON = {
         {
             "type":"boolean"
         },
-        "nn_config":
+        "hpr_prm":
         {
             "type":"object",
             "properties":
@@ -72,5 +72,5 @@ VALID_JSON = {
             "required":["w", "h", "path"]
         }
     },
-    "required":["learn_flag","nn_config","image"]
+    "required":["learn_flag","hpr_prm","image"]
 }

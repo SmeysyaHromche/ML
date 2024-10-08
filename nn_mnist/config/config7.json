@@ -1,6 +1,6 @@
 {
     "learn_flag":true,
-    "nn_config":
+    "hpr_prm":
     {
         "epochs":10,
         "batch_size":32,

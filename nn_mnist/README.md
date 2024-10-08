@@ -31,7 +31,7 @@
             },
             "required":["path", "src", "trg"]
         },
-        "nn_config":
+        "hpr_prm":
         {
             "type":"object",
             "properties":
@@ -66,6 +66,6 @@
             "required":["epochs", "act_f", "learning_rate", "hidden_layer"]
         }
     },
-    "required":["data","nn_config"]
+    "required":["data","hpr_prm"]
 }
 ```

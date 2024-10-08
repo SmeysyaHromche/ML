@@ -5,7 +5,7 @@
         "trg":"medv",
         "test_size":20
     },
-    "nn_config":
+    "hpr_prm":
     {
         "batch_size":34,
         "epochs":50,

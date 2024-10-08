@@ -6,8 +6,10 @@ Basci RNN have porblem *vanishing gradient* where loss memmory about longtime in
 
 Using: in audo/speech processing/recognizing, time data processing (economics) atd.
 
-### Definition
+
+Definition:
 ![DefinitionOfRNN](img/RNN1.svg)
+Legend:
 ![LegendOfDefinitionOfRNN](img/RNN2.png)
 
 ### Input x Output relation
@@ -33,8 +35,9 @@ LSTM has the ability to remember time sequance on short and long distance. Key f
 LSTM builded from cells and three components: input gate, output gate and forget gate. The cell remembers values over arbitrary time intervals and the three gates regulate the flow of information into and out of the cell. They use logic function with [0;1] value and make considfaretion about wich value will forgoted, going throw input/output gate.
 
 ### LSTM definition
-
+Definition:
 ![DefinitionOfLSTM](img/LSTMDefinition.svg)
+Legen:
 ![LegendOfDefinitionOfRNN](img/LSTMLegendOfDefinition.png)
 
 # My questions:

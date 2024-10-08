@@ -1,5 +1,5 @@
 {
-    "nn_config":
+    "hpr_prm":
     {
         "chanels":3,
         "class_cnt":10,
