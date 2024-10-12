@@ -47,4 +47,3 @@ ref2.py
 ml_utils/__pycache__
 nn_boston/.ipynb_checkpoints
 .ipynb_checkpoints/*
-ssl/
