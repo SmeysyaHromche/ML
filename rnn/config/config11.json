@@ -1,0 +1,34 @@
+{
+    "data":
+    {
+        "ticker":"AAPL",
+        "start_date":"2018-01-01",
+        "end_date":"2023-01-01",
+        "params":["Open", "Close"]
+    },
+    "hpr_prm":
+    {
+        "lr":0.001,
+        "hidden_size":350,
+        "num_layers":2,
+        "epochs":70,
+        "seq_len":60,
+        "batch_size":32
+    },
+    "opt":
+    {
+        "viz_stp":10,
+        "train":true,
+        "test":true,
+        "mdl_src":
+        {
+            "flag":false,
+            "path":""
+        },
+        "mdl_trg":
+        {
+            "flag":true,
+            "path":"models/model1.pth"
+        }
+    }
+}

@@ -2,19 +2,33 @@
     "data":
     {
         "ticker":"AAPL",
-        "start_date":"2018-01-01",
-        "end_date":"2023-01-01"
+        "start_date":"2019-01-01",
+        "end_date":"2023-01-01",
+        "params":["Close"]
     },
     "hpr_prm":
     {
         "lr":0.001,
         "hidden_size":128,
         "num_layers":2,
-        "epochs":200,
-        "seq_len":25
+        "epochs":100,
+        "seq_len":25,
+        "batch_size":32
     },
     "opt":
     {
-        "viz_stp":20
+        "viz_stp":20,
+        "train":true,
+        "test":true,
+        "mdl_src":
+        {
+            "flag":false,
+            "path":""
+        },
+        "mdl_trg":
+        {
+            "flag":false,
+            "path":""
+        }
     }
 }

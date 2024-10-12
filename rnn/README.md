@@ -41,5 +41,4 @@ Legen:
 ![LegendOfDefinitionOfRNN](img/LSTMLegendOfDefinition.png)
 
 # My questions:
-Normalization of data
-Backprop throw time
+Batch
