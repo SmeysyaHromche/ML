@@ -28,7 +28,7 @@ cnn/data/test/*
 ## data/train
 cnn/data/train/*
 !cnn/data/train/.gitkeep
-## data
+## data1
 cnn/data1/*
 !cnn/data1/*/
 !cnn/data1/.gitkeep
@@ -39,6 +39,34 @@ cnn/data1/test/*
 cnn/data1/train/*
 !cnn/data1/train/.gitkeep
 
+# ssl
+## data
+cnn/data/*
+!cnn/data/*/
+!cnn/data/.gitkeep
+## data/pretrain
+cnn/data/pretrain/*
+!cnn/data/pretrain/*/
+!cnn/data/pretrain/.gitkeep
+## data/pretrain/train
+cnn/data/pretrain/train*
+!cnn/data/pretrain/train/.gitkeep
+## data/pretrain/test
+cnn/data/pretrain/test*
+!cnn/data/pretrain/test/.gitkeep
+## data/learn
+cnn/data/learn/*
+!cnn/data/learn/*/
+!cnn/data/learn/.gitkeep
+## data/learn/train
+cnn/data/learn/train*
+!cnn/data/learn/train/.gitkeep
+## data/learn/test
+cnn/data/learn/test*
+!cnn/data/learn/test/.gitkeep
+## models
+cnn/models/*
+!cnn/models/.gitkeep
 
 # other
 train.ipynb
