@@ -41,32 +41,33 @@ cnn/data1/train/*
 
 # ssl
 ## data
-cnn/data/*
+ssl/*
+ssl/data/*
 !cnn/data/*/
 !cnn/data/.gitkeep
 ## data/pretrain
-cnn/data/pretrain/*
-!cnn/data/pretrain/*/
-!cnn/data/pretrain/.gitkeep
+ssl/data/pretrain/*
+!ssl/data/pretrain/*/
+!ssl/data/pretrain/.gitkeep
 ## data/pretrain/train
-cnn/data/pretrain/train*
-!cnn/data/pretrain/train/.gitkeep
+ssl/data/pretrain/train*
+!ssl/data/pretrain/train/.gitkeep
 ## data/pretrain/test
-cnn/data/pretrain/test*
-!cnn/data/pretrain/test/.gitkeep
+ssl/data/pretrain/test*
+!ssl/data/pretrain/test/.gitkeep
 ## data/learn
-cnn/data/learn/*
-!cnn/data/learn/*/
-!cnn/data/learn/.gitkeep
+ssl/data/learn/*
+!ssl/data/learn/*/
+!ssl/data/learn/.gitkeep
 ## data/learn/train
-cnn/data/learn/train*
-!cnn/data/learn/train/.gitkeep
+ssl/data/learn/train*
+!ssl/data/learn/train/.gitkeep
 ## data/learn/test
-cnn/data/learn/test*
-!cnn/data/learn/test/.gitkeep
+ssl/data/learn/test*
+!ssl/data/learn/test/.gitkeep
 ## models
-cnn/models/*
-!cnn/models/.gitkeep
+ssl/models/*
+!ssl/models/.gitkeep
 
 # other
 train.ipynb

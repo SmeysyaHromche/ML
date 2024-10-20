@@ -3,8 +3,8 @@
     {
         "dataset":"cifar10",
         "batch_size":64,
-        "train_path":"data/pretrain/train",
-        "test_path":"data/pretrain/test",
+        "train_path":"data/learn/train",
+        "test_path":"data/learn/test",
         "in_channels":3,
         "buffer_channels":64
     },
@@ -12,25 +12,25 @@
     {
         "in_channels":3,
         "lr":0.001,
-        "epochs":100
+        "epochs":25
     },
     "opt":
     {
         "displ":
         {
             "flag":true,
-            "step":10
+            "step":5
         },
         "store":
         {
-            "flag":true,
-            "path":"models/pretrain.pth"
+            "flag":false,
+            "path":""
         },
         "load":
         {
-            "flag":false,
+            "flag":true,
             "req_grad":false,
-            "path":""
+            "path":"models/pretrain.pth"
         }
     }
 }
